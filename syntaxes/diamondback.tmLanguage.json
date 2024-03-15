@@ -1,0 +1,45 @@
+{
+    "scopeName": "source.diamondback",
+    "patterns": [
+      {
+        "match": "\\b(def|endf|var|print|import)\\b",
+        "name": "keyword.control.diamondback"
+      },
+      {
+        "match": "\\bdef\\s+\\w+\\(\\)\\b",
+        "name": "entity.name.function.definition.diamondback"
+      },
+      {
+        "match": "\\bvar\\s+\\w+\\s*=\\s*.*\\b",
+        "name": "variable.assignment.diamondback"
+      },
+      {
+        "match": "\\bprint\\(.*\\)\\b",
+        "name": "constant.language.print.diamondback"
+      },
+      {
+        "match": "\\bimport\\s+\\w+\\s*\\[varcopy\\]\\b",
+        "name": "keyword.other.import-varcopy.diamondback"
+      },
+      {
+        "match": "\\bimport\\s+\\w+\\b",
+        "name": "keyword.other.import.diamondback"
+      },
+      {
+        "match": "\\w+\\(\\)\\b",
+        "name": "entity.name.function.call.diamondback"
+      },
+      {
+        "begin": "\\[plang",
+        "end": "\\]",
+        "name": "meta.embedded.block.other-language"
+      },
+      {
+        "match": "//.*",
+        "name": "comment.line.double-slash.diamondback"
+      }
+    ],
+    "repository": {},
+    "fileTypes": ["diba", "dbl"]
+  }
+  
