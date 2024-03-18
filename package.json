@@ -1,6 +1,6 @@
 {
   "name": "diamondback",
-  "displayName": "Diamondback language",
+  "displayName": "Diamondback Language",
   "icon": "imgs/logo.jpeg",
   "description": "Provides syntax highlighting for Diamondback language",
   "version": "0.0.4",
