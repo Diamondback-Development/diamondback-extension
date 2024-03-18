@@ -1,9 +1,10 @@
 # Change Log
 
-All notable changes to the "vscode-language-pack-diamondback" language pack will be documented in this file.
+All notable changes to the "Diamondback VS Code Extension" language pack will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [Pre-Release]
 
-## [Unreleased]
-
-- Initial release
+- Initial release - v0.0.1
+- Fix `package.json` - v0.0.2
+- Add more syntaxes - v0.0.3
+- Add Icon - v0.0.4
