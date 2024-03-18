@@ -35,6 +35,10 @@
         "name": "meta.embedded.block.other-language"
       },
       {
+        "match": "\\[plang\\]",
+        "name": "meta.embedded.block.other-language-end"
+      },
+      {
         "match": "//.*",
         "name": "comment.line.double-slash.diamondback"
       }
