@@ -1,0 +1,62 @@
+{
+    "Variable Assignment": {
+      "prefix": "var",
+      "body": [
+        "var $1 = $2"
+      ],
+      "description": "Assign a value to a variable"
+    },
+    "Print Statement": {
+      "prefix": "print",
+      "body": [
+        "print($1)"
+      ],
+      "description": "Print a value to the console"
+    },
+    "Function Definition": {
+      "prefix": "def",
+      "body": [
+        "def $1()",
+        "  $2",
+        "endf"
+      ],
+      "description": "Define a new function"
+    },
+    "Python Block": {
+      "prefix": "plangpython",
+      "body": [
+        "[plang python]",
+        "$1",
+        "[endplang]"
+      ],
+      "description": "Embed a Python code block"
+    },
+    "Lua Block": {
+      "prefix": "planglua",
+      "body": [
+        "[plang lua]",
+        "$1",
+        "[endplang]"
+      ],
+      "description": "Embed a Lua code block"
+    },
+    "Ruby Block": {
+      "prefix": "plangruby",
+      "body": [
+        "[plang ruby]",
+        "$1",
+        "[endplang]"
+      ],
+      "description": "Embed a Ruby code block"
+    },
+    "F# Block": {
+      "prefix": "plangfsharp",
+      "body": [
+        "[plang f#]",
+        "$1",
+        "[endplang]"
+      ],
+      "description": "Embed an F# code block"
+    }
+  }
+  

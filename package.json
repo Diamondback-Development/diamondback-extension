@@ -3,7 +3,7 @@
   "displayName": "Diamondback Language",
   "icon": "imgs/logo.jpeg",
   "description": "Provides syntax highlighting for Diamondback language",
-  "version": "0.0.5",
+  "version": "0.0.11",
   "publisher": "WolfTheDev",
   "engines": {
     "vscode": "^1.87.0"
@@ -22,7 +22,13 @@
       "language": "diamondback",
       "scopeName": "source.diamondback",
       "path": "./syntaxes/diamondback.tmLanguage.json"
-    }]
+    }],
+    "snippets": [
+      {
+          "language": "diamondback",
+          "path": "./snippets/snippets.json"
+      }
+    ]
   },
   "activationEvents": [
     "onLanguage:diamondback"
