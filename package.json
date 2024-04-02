@@ -1,0 +1,61 @@
+{
+  "name": "diamondback",
+  "displayName": "Diamondback Language",
+  "icon": "imgs/logo.png",
+  "description": "Provides syntax highlighting for Diamondback language",
+  "version": "0.0.10",
+  "publisher": "WolfTheDev",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "diamondback",
+        "aliases": [
+          "Diamondback"
+        ],
+        "icon": {
+          "light": "/imgs/diba-icon.png",
+          "dark": "/imgs/diba-icon.png"
+        },
+        "extensions": [
+          ".diba",
+          ".dbl"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "diamondback",
+        "scopeName": "source.diamondback",
+        "path": "./syntaxes/diamondback.tmLanguage.json"
+      }
+    ]
+  },
+  "activationEvents": [
+    "onLanguage:diamondback"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Diamondback-Development/diamondback-extension.git"
+  },
+  "main": "./out/extension.js",
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "prepublish": "npm run compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "vscode": "^1.1.37"
+  },
+  "dependencies": {
+    "vsce": "^2.15.0"
+  }
+}
