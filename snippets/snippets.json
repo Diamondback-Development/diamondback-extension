@@ -23,7 +23,7 @@
       "description": "Define a new function"
     },
     "Python Block": {
-      "prefix": "plangpython",
+      "prefix": "python",
       "body": [
         "[plang python]",
         "$1",
@@ -32,7 +32,7 @@
       "description": "Embed a Python code block"
     },
     "Lua Block": {
-      "prefix": "planglua",
+      "prefix": "lua",
       "body": [
         "[plang lua]",
         "$1",
@@ -41,7 +41,7 @@
       "description": "Embed a Lua code block"
     },
     "Ruby Block": {
-      "prefix": "plangruby",
+      "prefix": "ruby",
       "body": [
         "[plang ruby]",
         "$1",
@@ -50,13 +50,31 @@
       "description": "Embed a Ruby code block"
     },
     "F# Block": {
-      "prefix": "plangfsharp",
+      "prefix": "f#",
       "body": [
         "[plang f#]",
         "$1",
         "[endplang]"
       ],
       "description": "Embed an F# code block"
+    },
+    "LFE Block": {
+      "prefix": "lfe",
+      "body": [
+        "[plang lfe]",
+        "$1",
+        "[endplang]"
+      ],
+      "description": "Embed a LFE code block"
+    },
+    "Node.js Block": {
+      "prefix": "nodejs",
+      "body": [
+        "[plang nodejs]",
+        "$1",
+        "[endplang]"
+      ],
+      "description": "Embed a Node.js code block"
     }
   }
   
