@@ -11,4 +11,4 @@ All notable changes to the "Diamondback VS Code Extension" language pack will be
 - Add back ticks - v0.0.5
 - Add/Fix Images - v0.0.6-v0.0.10
 - Add snippets - v0.0.11
-- Fix Images - v0.0.12-v0.0.16
+- Fix Images - v0.0.12-v0.0.17
