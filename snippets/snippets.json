@@ -62,6 +62,9 @@
       "prefix": "lfe",
       "body": [
         "[plang lfe]",
+        "# Example LFE code block",
+        "[Example Link](http://example.com)",
+        "# h2",
         "$1",
         "[endplang]"
       ],
