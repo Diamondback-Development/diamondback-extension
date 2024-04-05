@@ -3,7 +3,7 @@
   "displayName": "Diamondback Language",
   "icon": "imgs/logo.png",
   "description": "Provides syntax highlighting for Diamondback language",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "publisher": "WolfTheDev",
   "engines": {
     "vscode": "^1.87.0"
@@ -16,17 +16,17 @@
       "id": "diamondback",
       "aliases": ["Diamondback"],
       "extensions": [".diba", ".dbl"],
-      "configuration": "./language-configuration.json"
+      "configuration": "./language-configuration.json",
+      "icon": {
+        "light": "./imgs/diba-icon.svg",
+        "dark": "./imgs/diba-icon.svg"
+      }
     }],
     "grammars": [{
       "language": "diamondback",
       "scopeName": "source.diamondback",
       "path": "./syntaxes/diamondback.tmLanguage.json"
     }],
-    "icon": {
-          "light": "./imgs/diba-icon.svg",
-          "dark": "./imgs/diba-icon.svg"
-        },
     "snippets": [
       {
           "language": "diamondback",
